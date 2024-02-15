@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "DespachoContable.Controllers.DespachoController",
+    "Method": "Editar",
+    "RelativePath": "api/Despacho/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "DespachoContable.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DespachoContable.Controllers.DespachoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Despacho/Eliminar/{idEmpleado}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DespachoContable.Controllers.DespachoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Despacho/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "DespachoContable.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DespachoContable.Controllers.DespachoController",
+    "Method": "Lista",
+    "RelativePath": "api/Despacho/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DespachoContable.Controllers.DespachoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Despacho/Obtener/{idEmpleado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
